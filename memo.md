@@ -1,9 +1,8 @@
 # Memo Teardown — Claude Science (Anthropic)
 
-**Họ tên:** Tran Thi Thu Trang — MSV 2A202602581
+**Họ tên:** Trần Thị Thu Trang — MSV 2A202602581
 
-**Vì sao chọn sản phẩm này:** (1–2 câu)
-
+**Vì sao chọn sản phẩm này:** Tôi chọn sản phẩm này vì nó khá mới ra và có liên quan tới công việc của tôi trước kia.
 **§1. Timeline các cập nhật lớn**
 
 *Phạm vi: timeline mảng khoa học / life sciences của Anthropic, đích đến là Claude Science.*
@@ -51,26 +50,29 @@ Nguồn: [The Scientist](https://www.the-scientist.com/early-verdicts-on-claude-
 
 **§3. Ba dự đoán hướng đi (6–12 tháng tới)**
 
-**Dự đoán 1** *(loại: mở rộng tính năng / segment / mô hình kiếm tiền / đe dọa Big Tech)*
-- **Dự đoán:** …
-- **Lập luận:** … *(dẫn ngược về §1–§2)*
+**Dự đoán 1** *(loại: mở rộng segment, R&D doanh nghiệp có quản lý)*
+- **Dự đoán:** Trong 6–12 tháng, Claude Science sẽ có bản **Enterprise cho pharma**: hỗ trợ workflow chuẩn GxP/validated, nhật ký kiểm toán đủ để nộp cơ quan quản lý, triển khai trong hạ tầng riêng của khách (VPC/on-prem) với cam kết không dùng dữ liệu để huấn luyện, gắn với quyền truy cập đã xác minh của LSVP.
+- **Lập luận:** Chuỗi mốc §1 đi đúng hướng này: HIPAA (01/2026), rồi workbench có lịch sử truy vết (06/2026), rồi LSVP (09/2026). Ở §2, JTBD của tệp pharma là "bằng chứng kèm dấu vết kiểm toán", còn lực Anxiety lớn nhất là lo dữ liệu độc quyền. Tin tuyển dụng PM Claude Science ghi rõ việc "making the workbench ready for enterprise R&D teams", và có vị trí phụ trách "GxP/validated workflows, auditability" ([job](https://job-boards.greenhouse.io/anthropic/jobs/5394887008)).
 
-**Dự đoán 2** *(loại: …)*
-- **Dự đoán:** …
-- **Lập luận:** …
+**Dự đoán 2** *(loại: mở rộng tính năng, lab-in-the-loop)*
+- **Dự đoán:** Claude Science sẽ **kết nối trực tiếp với thiết bị phòng thí nghiệm** (máy hút dịch tự động, kính hiển vi, robot) theo chuẩn Model Hardware Standard. Agent sẽ khép kín vòng: thiết kế thí nghiệm, gửi lệnh chạy, nhận dữ liệu về, rồi phân tích.
+- **Lập luận:** Nguyên lý **vòng lặp học** đã lặp lại 2 lần ở §1 (AI for Science 05/2025, tự làm thuốc 06/2026), và Anthropic đang xây wet lab riêng ([ODSC](https://opendatascience.com/anthropic-builds-biology-lab-as-claude-moves-into-physical-science/)). Workbench mới đạt **x10** ở phần tính toán; khâu chạy thí nghiệm thật vẫn đứt. Quan trọng hơn, §2 chỉ ra switching cost đang thấp vì dữ liệu nằm ngoài Claude Science. Khi dữ liệu thí nghiệm *sinh ra ngay trong* hệ thống, Anthropic chuyển được từ "kết nối dữ liệu" sang "giữ dữ liệu", tức tạo moat thật.
 
-**Dự đoán 3** *(loại: …)*
-- **Dự đoán:** …
-- **Lập luận:** …
+**Dự đoán 3** *(loại: mở rộng segment sang ngành khoa học khác, phản ứng với Big Tech)*
+- **Dự đoán:** Claude Science sẽ ra **bộ skills/connector cho hoá học và vật liệu** (phổ NMR, cơ sở dữ liệu tinh thể, tính toán DFT trên HPC), là ngành đầu tiên ngoài sinh học, để không nhường mảng khoa học vật lý cho Google.
+- **Lập luận:** §1 cho thấy mỗi lần mở một ngành, Anthropic đi cùng một khuôn: **credits → connector → skills → sản phẩm** (05/2025 → 10/2025 → 01/2026 → 06/2026). Khuôn này đang bắt đầu lại với hoá học: Anthropic đã công bố nghiên cứu NMR với Opus 4.7, mở credits cho các ngành ngoài sinh học, và tin tuyển PM có "expanding into new scientific fields". Ở §2, lời chê rõ nhất từ user là "zero connectors for non biology". Về Big Tech, Google đang đưa AI co-scientist vào cả 17 phòng thí nghiệm quốc gia của Bộ Năng lượng Mỹ (DOE) và ra Gemini for Science ([DeepMind](https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/)). Nếu Claude Science chỉ có sinh học, Anthropic sẽ mất tệp vật lý/hoá học.
+
+*Tự đánh giá:* Mình tự tin nhất ở **Dự đoán 1**, vì có cả chuỗi mốc lẫn tin tuyển dụng ủng hộ. Giả định có thể làm nó gãy: pharma chấp nhận dùng Claude qua cloud sẵn có (Bedrock/Vertex) thay vì cần bản Enterprise riêng của Claude Science.
 
 **§4. AI Log**
 
 | Việc | AI làm hay bạn làm? | Bạn kiểm chứng/phán đoán lại thế nào? |
 |---|---|---|
-| Tóm tắt đề bài lab và hướng dẫn các bước | AI (Claude Code) | |
-| Tìm nhanh các mốc ứng viên của mảng khoa học/life sciences của Anthropic | AI (Claude Code, web search) | |
-| Soạn nháp bảng timeline 7 mốc, context và gợi ý nguyên lý | AI (Claude Code) soạn nháp | |
-| Chốt mốc giữ/loại và nguyên lý cuối cùng cho từng mốc | Bạn | |
-| Tìm review/thảo luận user (The Scientist, Hacker News, TechCrunch) và soạn nháp §2 (bảng tệp user, JTBD, 4 forces) | AI (Claude Code) soạn nháp | |
-| Chọn lực mạnh nhất trong 4 forces và nhận định switching cost | Bạn | |
-| | | |
+| Tóm tắt đề bài lab và hướng dẫn các bước | AI (Claude Code) | Đọc lại đề bài gốc, đối chiếu xem AI có bỏ sót yêu cầu, checkpoint hoặc deliverable nào không. |
+| Tìm nhanh các mốc ứng viên của mảng khoa học/life sciences của Anthropic | AI (Claude Code, web search) | Kiểm tra lại nguồn chính thức của Anthropic, đối chiếu ngày tháng và nội dung của từng mốc; loại những thông tin không có nguồn đáng tin cậy. |
+| Soạn nháp bảng timeline 7 mốc, context và gợi ý nguyên lý | AI (Claude Code) soạn nháp | Đối chiếu timeline với nguồn gốc; kiểm tra xem context có đúng với từng mốc không. |
+| Chốt mốc giữ/loại và nguyên lý cuối cùng cho từng mốc | Bạn |Đọc các mốc và chỉ giữ các quyết định làm thay đổi sản phẩm |
+| Tìm review/thảo luận user (The Scientist, Hacker News, TechCrunch) và soạn nháp §2 (bảng tệp user, JTBD, 4 forces) | AI (Claude Code) soạn nháp | Với JTBD và 4 forces, tự xem lại từ góc nhìn người dùng thay vì chấp nhận nguyên văn kết quả của AI. |
+| Chọn lực mạnh nhất trong 4 forces và nhận định switching cost | Bạn | Dựa trên review và thảo luận công khai của user (The Scientist, Hacker News). |
+| Tìm tín hiệu cho dự đoán (tin tuyển dụng, wet lab, nghiên cứu hoá học, động thái Google) và soạn nháp 3 dự đoán §3 | AI (Claude Code) soạn nháp | Kiểm tra nguồn, ngày đăng và mức độ liên quan của từng tín hiệu; phân biệt fact với suy luận/dự đoán. |
+| Chọn 3 dự đoán giữ lại và tự đánh giá dự đoán nào chắc nhất | Bạn | Xem lại bằng chứng cho từng dự đoán, kiểm tra giả định ngầm và mức độ chắc chắn; loại dự đoán nếu bằng chứng yếu hoặc quá phụ thuộc vào suy đoán. |
